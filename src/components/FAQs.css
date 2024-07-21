@@ -1,0 +1,28 @@
+.faqs {
+    padding: 20px;
+    text-align: left;
+    color: #333;
+}
+
+.faqs h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.faq-item {
+    margin-bottom: 20px;
+}
+
+.faq-item h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.faq-item p, .faq-item ol, .faq-item ul {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.faq-item ol li, .faq-item ul li {
+    margin-bottom: 5px;
+}

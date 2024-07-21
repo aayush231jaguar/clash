@@ -1,0 +1,64 @@
+.footer {
+    position: relative;
+    overflow: hidden;
+    color: white;
+    text-align: center;
+    padding: 40px 20px;
+    background: rgba(0, 0, 0, 0.7); /* Fallback background color */
+}
+
+.background-video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+}
+
+.content {
+    position: relative;
+    z-index: 1;
+    backdrop-filter: blur(10px); /* Adds blur to the background */
+}
+
+.footer-section {
+    margin-bottom: 20px;
+}
+
+.footer-section h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #fff; /* Ensure text is readable */
+}
+
+.footer-section p, .footer-section ul, .footer-section input, .footer-section button {
+    font-size: 14px;
+    margin-bottom: 10px;
+    color: #fff; /* Ensure text is readable */
+}
+
+.footer-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-section ul li a {
+    text-decoration: none;
+    color: #fff; /* Ensure text is readable */
+}
+
+.footer-section input {
+    width: 80%;
+    padding: 5px;
+    border: 1px solid #ccc;
+}
+
+.footer-section button {
+    padding: 5px 10px;
+    background: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+}

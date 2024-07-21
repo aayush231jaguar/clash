@@ -2,11 +2,11 @@ import React, { useState } from 'react';
 import './Hero.css';
 
 const images = [
-    'pic1.png',
-    'pic2.avif',
-    'pic3.jpg',
-    'pic4.webp',
-    'pic7.jpg'
+    `${process.env.PUBLIC_URL}/images/pic1.png`,
+    `${process.env.PUBLIC_URL}/images/pic2.avif`,
+    `${process.env.PUBLIC_URL}/images/pic3.jpg`,
+    `${process.env.PUBLIC_URL}/images/pic4.webp`,
+    `${process.env.PUBLIC_URL}/images/pic7.jpg`
 ];
 
 const Hero = () => {

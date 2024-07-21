@@ -8,7 +8,7 @@ const NewArrivals = () => {
             <div className="carousel">
                 <div className="item">
                     <video autoPlay muted loop controls className="gameplay-trailer">
-                        <source src="wukong.mp4" type="video/mp4" />
+                        <source src={`${process.env.PUBLIC_URL}/videos/w.mp4`} type="video/mp4" />
                         Your browser does not support the video tag.
                     </video>
                     <p>Watch the Latest Gameplay Trailer</p>

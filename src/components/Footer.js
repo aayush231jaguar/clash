@@ -6,7 +6,7 @@ const Footer = () => {
     return (
         <footer className="footer">
             <video autoPlay muted loop className="background-video">
-                <source src="footer.mp4" type="video/mp4" />
+                <source src={`${process.env.PUBLIC_URL}/videos/footer.mp4`} type="video/mp4" />
                 Your browser does not support the video tag.
             </video>
             <div className="content">

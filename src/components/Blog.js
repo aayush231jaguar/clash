@@ -7,7 +7,7 @@ const Blog = () => {
             title: "Concord Open Beta gameplay tips: Crew Roles, Skillful Loops, recommended Freegunners and more",
             author: "Gillen McAllister",
             date: "July 18, 2024",
-            image: `${process.env.PUBLIC_URL}/images/image.webp`, 
+            image: `${process.env.PUBLIC_URL}/images/im.webp`, 
             description: "Open Beta available from July 18 - 21.",
         },
         {
